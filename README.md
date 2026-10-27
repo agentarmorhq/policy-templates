@@ -50,7 +50,7 @@ windsurf/<server>.json                       one file per server
 - **Commands must match exactly.** `npx -y @modelcontextprotocol/server-memory` and `npx @modelcontextprotocol/server-memory` are different to Claude Code and Copilot. The commands here are the ones each project documents. If your team starts a server another way, change the entry to match.
 - **Servers that need extra arguments are left out.** A file server needs a folder, a database server needs an address. Those arguments would have to match too, so add your own entry with your real command.
 - **Servers marked `@latest` follow new releases.** Only `strict-security` pins exact versions. When you pin, update the pin on purpose.
-- **Cursor** lets an admin control the MCP list on its Enterprise plan only. Cursor has no block list, so the retired servers are blocked only because everything not on the list is.
+- **Cursor** lets an admin control the MCP list on its Enterprise plan only. Cursor's documentation describes an allowlist only, so the retired servers are blocked because everything not on the list is.
 - **Windsurf**: once one server is on the allowlist, every other server is blocked for the team. Windsurf's documentation does not say how it matches remote servers, so remote ones (such as GitHub and Linear) are not in the Windsurf files. Add them by hand after you check with Windsurf.
 - **GitHub Copilot** built-in servers cannot be blocked by a deny rule.
 - **The PR gate file** can only name packages, so remote servers are not in `.agentarmor.yml`. It also sets `block_grades`, which fails a pull request on those AgentArmor grades.

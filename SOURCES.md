@@ -26,7 +26,7 @@ Commands are `uvx mcp-server-fetch`, `uvx mcp-server-git` and `uvx mcp-server-ti
 
 ## Remote servers (checked: the URL answers, and a project page names it)
 
-| URL | Answer to an unauthenticated request | Named on |
+| URL | Answer to an empty, unauthenticated POST | Named on |
 | --- | --- | --- |
 | `https://api.githubcopilot.com/mcp/` | 401 | https://github.com/github/github-mcp-server (README) |
 | `https://mcp.linear.app/mcp` | 401 | https://linear.app/docs/mcp |
