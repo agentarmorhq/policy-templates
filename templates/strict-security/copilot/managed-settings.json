@@ -1,0 +1,69 @@
+{
+  "allowedMcpServers": [
+    {
+      "serverCommand": [
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-memory@2.0.0"
+      ]
+    },
+    {
+      "serverCommand": [
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking@2.0.0"
+      ]
+    },
+    {
+      "serverCommand": [
+        "uvx",
+        "mcp-server-time==2026.10.19"
+      ]
+    },
+    {
+      "serverCommand": [
+        "uvx",
+        "mcp-server-git==2026.10.19"
+      ]
+    },
+    {
+      "serverUrl": "https://api.githubcopilot.com/mcp/"
+    }
+  ],
+  "deniedMcpServers": [
+    {
+      "serverCommand": [
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-github"
+      ]
+    },
+    {
+      "serverCommand": [
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-postgres"
+      ]
+    },
+    {
+      "serverCommand": [
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-puppeteer"
+      ]
+    },
+    {
+      "serverCommand": [
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-slack"
+      ]
+    },
+    {
+      "serverCommand": [
+        "uvx",
+        "mcp-server-sqlite"
+      ]
+    }
+  ]
+}

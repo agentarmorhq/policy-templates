@@ -1,0 +1,11 @@
+npx -y @modelcontextprotocol/server-memory
+npx -y @modelcontextprotocol/server-sequential-thinking
+uvx mcp-server-fetch
+uvx mcp-server-git
+uvx mcp-server-time
+npx @playwright/mcp@latest
+npx -y @notionhq/notion-mcp-server
+https://api.githubcopilot.com/mcp/
+https://mcp.linear.app/mcp
+https://mcp.sentry.dev/mcp
+https://mcp.context7.com/mcp

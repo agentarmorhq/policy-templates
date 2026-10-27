@@ -1,0 +1,10 @@
+{
+  "serverId": "time",
+  "config": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-time==2026\\.10\\.19"
+    ],
+    "env": {}
+  }
+}

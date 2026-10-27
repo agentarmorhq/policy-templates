@@ -1,0 +1,9 @@
+{
+  "name": "policy-templates",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Checks for the AgentArmor policy templates. Not published.",
+  "type": "module",
+  "scripts": { "test": "node test/check.mjs" },
+  "license": "CC0-1.0"
+}

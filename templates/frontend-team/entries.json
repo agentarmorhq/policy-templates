@@ -1,0 +1,203 @@
+[
+  {
+    "id": "playwright",
+    "kind": "mcp_stdio",
+    "decision": "approved",
+    "name": "playwright",
+    "identity": {
+      "command": [
+        "npx",
+        "@playwright/mcp@latest"
+      ]
+    },
+    "pin": null
+  },
+  {
+    "id": "chrome-devtools",
+    "kind": "mcp_stdio",
+    "decision": "approved",
+    "name": "chrome-devtools",
+    "identity": {
+      "command": [
+        "npx",
+        "-y",
+        "chrome-devtools-mcp@latest"
+      ]
+    },
+    "pin": null
+  },
+  {
+    "id": "notion",
+    "kind": "mcp_stdio",
+    "decision": "approved",
+    "name": "notion",
+    "identity": {
+      "command": [
+        "npx",
+        "-y",
+        "@notionhq/notion-mcp-server"
+      ]
+    },
+    "pin": null
+  },
+  {
+    "id": "memory",
+    "kind": "mcp_stdio",
+    "decision": "approved",
+    "name": "memory",
+    "identity": {
+      "command": [
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-memory"
+      ]
+    },
+    "pin": null
+  },
+  {
+    "id": "sequential-thinking",
+    "kind": "mcp_stdio",
+    "decision": "approved",
+    "name": "sequential-thinking",
+    "identity": {
+      "command": [
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking"
+      ]
+    },
+    "pin": null
+  },
+  {
+    "id": "fetch",
+    "kind": "mcp_stdio",
+    "decision": "approved",
+    "name": "fetch",
+    "identity": {
+      "command": [
+        "uvx",
+        "mcp-server-fetch"
+      ]
+    },
+    "pin": null
+  },
+  {
+    "id": "github",
+    "kind": "mcp_remote",
+    "decision": "approved",
+    "name": "github",
+    "identity": {
+      "url_pattern": "https://api.githubcopilot.com/mcp/"
+    },
+    "pin": null
+  },
+  {
+    "id": "figma",
+    "kind": "mcp_remote",
+    "decision": "approved",
+    "name": "figma",
+    "identity": {
+      "url_pattern": "https://mcp.figma.com/mcp"
+    },
+    "pin": null
+  },
+  {
+    "id": "context7",
+    "kind": "mcp_remote",
+    "decision": "approved",
+    "name": "context7",
+    "identity": {
+      "url_pattern": "https://mcp.context7.com/mcp"
+    },
+    "pin": null
+  },
+  {
+    "id": "linear",
+    "kind": "mcp_remote",
+    "decision": "approved",
+    "name": "linear",
+    "identity": {
+      "url_pattern": "https://mcp.linear.app/mcp"
+    },
+    "pin": null
+  },
+  {
+    "id": "sentry",
+    "kind": "mcp_remote",
+    "decision": "approved",
+    "name": "sentry",
+    "identity": {
+      "url_pattern": "https://mcp.sentry.dev/mcp"
+    },
+    "pin": null
+  },
+  {
+    "id": "blocked-@modelcontextprotocol/server-github",
+    "kind": "mcp_stdio",
+    "decision": "blocked",
+    "name": "@modelcontextprotocol/server-github",
+    "identity": {
+      "command": [
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-github"
+      ]
+    },
+    "pin": null
+  },
+  {
+    "id": "blocked-@modelcontextprotocol/server-postgres",
+    "kind": "mcp_stdio",
+    "decision": "blocked",
+    "name": "@modelcontextprotocol/server-postgres",
+    "identity": {
+      "command": [
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-postgres"
+      ]
+    },
+    "pin": null
+  },
+  {
+    "id": "blocked-@modelcontextprotocol/server-puppeteer",
+    "kind": "mcp_stdio",
+    "decision": "blocked",
+    "name": "@modelcontextprotocol/server-puppeteer",
+    "identity": {
+      "command": [
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-puppeteer"
+      ]
+    },
+    "pin": null
+  },
+  {
+    "id": "blocked-@modelcontextprotocol/server-slack",
+    "kind": "mcp_stdio",
+    "decision": "blocked",
+    "name": "@modelcontextprotocol/server-slack",
+    "identity": {
+      "command": [
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-slack"
+      ]
+    },
+    "pin": null
+  },
+  {
+    "id": "blocked-mcp-server-sqlite",
+    "kind": "mcp_stdio",
+    "decision": "blocked",
+    "name": "mcp-server-sqlite",
+    "identity": {
+      "command": [
+        "uvx",
+        "mcp-server-sqlite"
+      ]
+    },
+    "pin": null
+  }
+]

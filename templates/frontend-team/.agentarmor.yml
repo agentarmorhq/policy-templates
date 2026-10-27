@@ -1,0 +1,16 @@
+# frontend-team: browser testing, design hand-off and docs lookup.
+block_grades: [F]
+# Everything below comes from entries.json. Add an "org:" line only if you use AgentArmor for Teams.
+block:
+  - "@modelcontextprotocol/server-github"
+  - "@modelcontextprotocol/server-postgres"
+  - "@modelcontextprotocol/server-puppeteer"
+  - "@modelcontextprotocol/server-slack"
+  - "mcp-server-sqlite"
+allow:
+  - "@playwright/mcp"
+  - "chrome-devtools-mcp"
+  - "@notionhq/notion-mcp-server"
+  - "@modelcontextprotocol/server-memory"
+  - "@modelcontextprotocol/server-sequential-thinking"
+  - "mcp-server-fetch"

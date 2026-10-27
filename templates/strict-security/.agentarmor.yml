@@ -1,0 +1,14 @@
+# strict-security: a short list with exact versions. Anything not listed is not approved.
+block_grades: [D, F]
+# Everything below comes from entries.json. Add an "org:" line only if you use AgentArmor for Teams.
+block:
+  - "@modelcontextprotocol/server-github"
+  - "@modelcontextprotocol/server-postgres"
+  - "@modelcontextprotocol/server-puppeteer"
+  - "@modelcontextprotocol/server-slack"
+  - "mcp-server-sqlite"
+allow:
+  - "@modelcontextprotocol/server-memory"
+  - "@modelcontextprotocol/server-sequential-thinking"
+  - "mcp-server-time"
+  - "mcp-server-git"

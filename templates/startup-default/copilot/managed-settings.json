@@ -1,0 +1,97 @@
+{
+  "allowedMcpServers": [
+    {
+      "serverCommand": [
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-memory"
+      ]
+    },
+    {
+      "serverCommand": [
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking"
+      ]
+    },
+    {
+      "serverCommand": [
+        "uvx",
+        "mcp-server-fetch"
+      ]
+    },
+    {
+      "serverCommand": [
+        "uvx",
+        "mcp-server-git"
+      ]
+    },
+    {
+      "serverCommand": [
+        "uvx",
+        "mcp-server-time"
+      ]
+    },
+    {
+      "serverCommand": [
+        "npx",
+        "@playwright/mcp@latest"
+      ]
+    },
+    {
+      "serverCommand": [
+        "npx",
+        "-y",
+        "@notionhq/notion-mcp-server"
+      ]
+    },
+    {
+      "serverUrl": "https://api.githubcopilot.com/mcp/"
+    },
+    {
+      "serverUrl": "https://mcp.linear.app/mcp"
+    },
+    {
+      "serverUrl": "https://mcp.sentry.dev/mcp"
+    },
+    {
+      "serverUrl": "https://mcp.context7.com/mcp"
+    }
+  ],
+  "deniedMcpServers": [
+    {
+      "serverCommand": [
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-github"
+      ]
+    },
+    {
+      "serverCommand": [
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-postgres"
+      ]
+    },
+    {
+      "serverCommand": [
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-puppeteer"
+      ]
+    },
+    {
+      "serverCommand": [
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-slack"
+      ]
+    },
+    {
+      "serverCommand": [
+        "uvx",
+        "mcp-server-sqlite"
+      ]
+    }
+  ]
+}

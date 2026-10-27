@@ -1,0 +1,11 @@
+{
+  "serverId": "memory",
+  "config": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-memory@2\\.0\\.0"
+    ],
+    "env": {}
+  }
+}

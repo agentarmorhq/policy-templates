@@ -1,0 +1,10 @@
+{
+  "serverId": "playwright",
+  "config": {
+    "command": "npx",
+    "args": [
+      "@playwright/mcp@latest"
+    ],
+    "env": {}
+  }
+}

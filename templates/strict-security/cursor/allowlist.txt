@@ -1,0 +1,5 @@
+npx -y @modelcontextprotocol/server-memory@2.0.0
+npx -y @modelcontextprotocol/server-sequential-thinking@2.0.0
+uvx mcp-server-time==2026.10.19
+uvx mcp-server-git==2026.10.19
+https://api.githubcopilot.com/mcp/

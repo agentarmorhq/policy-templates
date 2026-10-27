@@ -1,0 +1,8 @@
+npx -y @modelcontextprotocol/server-memory
+npx -y @modelcontextprotocol/server-sequential-thinking
+uvx mcp-server-fetch
+uvx mcp-server-time
+npx -y @notionhq/notion-mcp-server
+https://api.githubcopilot.com/mcp/
+https://mcp.supabase.com/mcp
+https://mcp.context7.com/mcp

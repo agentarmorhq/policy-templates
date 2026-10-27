@@ -1,0 +1,147 @@
+[
+  {
+    "id": "memory",
+    "kind": "mcp_stdio",
+    "decision": "approved",
+    "name": "memory",
+    "identity": {
+      "command": [
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-memory@2.0.0"
+      ]
+    },
+    "pin": {
+      "type": "exact",
+      "version": "2.0.0"
+    }
+  },
+  {
+    "id": "sequential-thinking",
+    "kind": "mcp_stdio",
+    "decision": "approved",
+    "name": "sequential-thinking",
+    "identity": {
+      "command": [
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking@2.0.0"
+      ]
+    },
+    "pin": {
+      "type": "exact",
+      "version": "2.0.0"
+    }
+  },
+  {
+    "id": "time",
+    "kind": "mcp_stdio",
+    "decision": "approved",
+    "name": "time",
+    "identity": {
+      "command": [
+        "uvx",
+        "mcp-server-time==2026.10.19"
+      ]
+    },
+    "pin": {
+      "type": "exact",
+      "version": "2026.10.19"
+    }
+  },
+  {
+    "id": "git",
+    "kind": "mcp_stdio",
+    "decision": "approved",
+    "name": "git",
+    "identity": {
+      "command": [
+        "uvx",
+        "mcp-server-git==2026.10.19"
+      ]
+    },
+    "pin": {
+      "type": "exact",
+      "version": "2026.10.19"
+    }
+  },
+  {
+    "id": "github",
+    "kind": "mcp_remote",
+    "decision": "approved",
+    "name": "github",
+    "identity": {
+      "url_pattern": "https://api.githubcopilot.com/mcp/"
+    },
+    "pin": null
+  },
+  {
+    "id": "blocked-@modelcontextprotocol/server-github",
+    "kind": "mcp_stdio",
+    "decision": "blocked",
+    "name": "@modelcontextprotocol/server-github",
+    "identity": {
+      "command": [
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-github"
+      ]
+    },
+    "pin": null
+  },
+  {
+    "id": "blocked-@modelcontextprotocol/server-postgres",
+    "kind": "mcp_stdio",
+    "decision": "blocked",
+    "name": "@modelcontextprotocol/server-postgres",
+    "identity": {
+      "command": [
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-postgres"
+      ]
+    },
+    "pin": null
+  },
+  {
+    "id": "blocked-@modelcontextprotocol/server-puppeteer",
+    "kind": "mcp_stdio",
+    "decision": "blocked",
+    "name": "@modelcontextprotocol/server-puppeteer",
+    "identity": {
+      "command": [
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-puppeteer"
+      ]
+    },
+    "pin": null
+  },
+  {
+    "id": "blocked-@modelcontextprotocol/server-slack",
+    "kind": "mcp_stdio",
+    "decision": "blocked",
+    "name": "@modelcontextprotocol/server-slack",
+    "identity": {
+      "command": [
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-slack"
+      ]
+    },
+    "pin": null
+  },
+  {
+    "id": "blocked-mcp-server-sqlite",
+    "kind": "mcp_stdio",
+    "decision": "blocked",
+    "name": "mcp-server-sqlite",
+    "identity": {
+      "command": [
+        "uvx",
+        "mcp-server-sqlite"
+      ]
+    },
+    "pin": null
+  }
+]

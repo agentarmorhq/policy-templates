@@ -1,0 +1,10 @@
+{
+  "serverId": "fetch",
+  "config": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-fetch"
+    ],
+    "env": {}
+  }
+}

@@ -1,0 +1,17 @@
+# startup-default: a small starting list for a team that wants to move fast.
+block_grades: [F]
+# Everything below comes from entries.json. Add an "org:" line only if you use AgentArmor for Teams.
+block:
+  - "@modelcontextprotocol/server-github"
+  - "@modelcontextprotocol/server-postgres"
+  - "@modelcontextprotocol/server-puppeteer"
+  - "@modelcontextprotocol/server-slack"
+  - "mcp-server-sqlite"
+allow:
+  - "@modelcontextprotocol/server-memory"
+  - "@modelcontextprotocol/server-sequential-thinking"
+  - "mcp-server-fetch"
+  - "mcp-server-git"
+  - "mcp-server-time"
+  - "@playwright/mcp"
+  - "@notionhq/notion-mcp-server"

@@ -1,0 +1,11 @@
+npx @playwright/mcp@latest
+npx -y chrome-devtools-mcp@latest
+npx -y @notionhq/notion-mcp-server
+npx -y @modelcontextprotocol/server-memory
+npx -y @modelcontextprotocol/server-sequential-thinking
+uvx mcp-server-fetch
+https://api.githubcopilot.com/mcp/
+https://mcp.figma.com/mcp
+https://mcp.context7.com/mcp
+https://mcp.linear.app/mcp
+https://mcp.sentry.dev/mcp
