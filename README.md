@@ -28,7 +28,7 @@ In every template, a server that is not on the list is not approved.
 
 ## Make it yours
 
-Start from a ready list of approved AI tools, then make it yours inside [AgentArmor for Teams](https://agentarmorhq.com/teams). Teams is in development.
+To run one approved list for your whole company, see [AgentArmor for Teams](https://agentarmorhq.com/teams). Teams is in development.
 
 A grade is our opinion from public signals, not a review of the code.
 
